@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#CDE9F7"/>
+  <rect y="300" width="640" height="60" fill="#9AA3A8"/>
+  <rect x="90" y="110" width="460" height="190" fill="#F2EDE4"/>
+  <rect x="90" y="110" width="460" height="10" fill="#D8CBB8"/>
+  <rect x="140" y="70" width="360" height="46" rx="6" fill="#12456E"/>
+  <text x="320" y="101" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#7FD1FF" text-anchor="middle">TECNOCANA</text>
+  <g>
+    <rect x="90" y="130" width="460" height="34" fill="#1F6FB2"/>
+    <path d="M90 164 l23 -34 h46 l-23 34 z" fill="#EAF4FB"/>
+    <path d="M182 164 l23 -34 h46 l-23 34 z" fill="#EAF4FB"/>
+    <path d="M274 164 l23 -34 h46 l-23 34 z" fill="#EAF4FB"/>
+    <path d="M366 164 l23 -34 h46 l-23 34 z" fill="#EAF4FB"/>
+    <path d="M458 164 l23 -34 h46 l-23 34 z" fill="#EAF4FB"/>
+  </g>
+  <rect x="120" y="180" width="160" height="120" fill="#8FC7E8" stroke="#12456E" stroke-width="4"/>
+  <rect x="128" y="188" width="64" height="48" fill="#12456E"/>
+  <rect x="136" y="196" width="48" height="30" fill="#7FD1FF"/>
+  <rect x="152" y="240" width="16" height="10" fill="#12456E"/>
+  <rect x="206" y="188" width="66" height="100" fill="#F8F4EC" stroke="#12456E" stroke-width="3"/>
+  <text x="239" y="215" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#12456E" text-anchor="middle">LAPTOPS</text>
+  <text x="239" y="232" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#12456E" text-anchor="middle">· PCs ·</text>
+  <text x="239" y="249" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#12456E" text-anchor="middle">SSD RAM</text>
+  <text x="239" y="266" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#1F6FB2" text-anchor="middle">OFERTAS</text>
+  <rect x="340" y="180" width="90" height="120" fill="#2E7DAB" stroke="#12456E" stroke-width="4"/>
+  <rect x="350" y="190" width="70" height="70" fill="#8FC7E8"/>
+  <circle cx="417" cy="240" r="4" fill="#EAF4FB"/>
+  <rect x="460" y="180" width="70" height="120" fill="#8FC7E8" stroke="#12456E" stroke-width="4"/>
+  <rect x="470" y="200" width="50" height="30" fill="#12456E"/>
+  <rect x="476" y="206" width="38" height="18" fill="#7FD1FF"/>
+  <rect x="488" y="232" width="14" height="6" fill="#12456E"/>
+  <text x="320" y="335" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2C3E45" text-anchor="middle">Avenida Barceló, Plaza Caney, local 12 — Bávaro, Punta Cana</text>
+</svg>
