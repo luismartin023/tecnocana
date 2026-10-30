@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a TecnoCana en Punta Cana: formulario de solicitud de servicio, cotización de equipos, teléfono, correo y dirección del local.">
+    <title>Contacto | TecnoCana</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="Logo de TecnoCana: un monitor azul con las iniciales TC en blanco" width="72" height="72">
+        <h1>Contacto</h1>
+        <p>Escríbenos y te respondemos el mismo día laborable.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios y precios</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de solicitud</h2>
+            <p>
+                Llena los datos y cuéntanos qué necesitas. Los campos con
+                <abbr title="obligatorio">*</abbr> son obligatorios.
+            </p>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Tus datos</legend>
+
+                    <p>
+                        <label for="nombre">Nombre completo *</label><br>
+                        <input type="text" id="nombre" name="nombre" required minlength="5" maxlength="60">
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo electrónico *</label><br>
+                        <input type="email" id="correo" name="correo" required>
+                    </p>
+
+                    <p>
+                        <label for="telefono">Teléfono *</label><br>
+                        <input type="tel" id="telefono" name="telefono" required
+                               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="809-000-0000">
+                    </p>
+
+                    <p>
+                        <label for="web">Tu sitio web o red social (opcional)</label><br>
+                        <input type="url" id="web" name="web" placeholder="https://">
+                    </p>
+
+                    <p>
+                        <label for="fecha">Fecha preferida para traer el equipo</label><br>
+                        <input type="date" id="fecha" name="fecha" min="2026-10-30">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tu solicitud</legend>
+
+                    <p>
+                        <label for="tipo">Tipo de servicio *</label><br>
+                        <select id="tipo" name="tipo" required>
+                            <option value="">— Selecciona —</option>
+                            <optgroup label="Taller">
+                                <option value="diagnostico">Diagnóstico gratuito</option>
+                                <option value="mantenimiento">Mantenimiento / limpieza</option>
+                                <option value="reparacion">Reparación de laptop o PC</option>
+                            </optgroup>
+                            <optgroup label="Ventas">
+                                <option value="laptop">Cotización de laptop</option>
+                                <option value="pc-armada">PC armada a medida</option>
+                                <option value="accesorios">Accesorios</option>
+                            </optgroup>
+                            <optgroup label="Negocios">
+                                <option value="redes">Redes y puntos de venta</option>
+                                <option value="contrato">Contrato de soporte mensual</option>
+                            </optgroup>
+                        </select>
+                    </p>
+
+                    <p>¿Ya eres cliente de TecnoCana? *</p>
+                    <p>
+                        <input type="radio" id="cliente-si" name="cliente" value="si" required>
+                        <label for="cliente-si">Sí, ya me han atendido</label><br>
+                        <input type="radio" id="cliente-no" name="cliente" value="no">
+                        <label for="cliente-no">No, es mi primera vez</label>
+                    </p>
+
+                    <p>
+                        <label for="equipos">Cantidad de equipos</label><br>
+                        <input type="number" id="equipos" name="equipos" min="1" max="20" value="1">
+                    </p>
+
+                    <p>
+                        <label for="presupuesto">Presupuesto aproximado (RD$): <strong>30,000</strong></label><br>
+                        <input type="range" id="presupuesto" name="presupuesto" min="5000" max="100000" step="5000" value="30000">
+                    </p>
+
+                    <p>
+                        <label for="color">Color preferido del equipo</label><br>
+                        <input type="color" id="color" name="color" value="#1F6FB2">
+                    </p>
+
+                    <p>
+                        <label for="mensaje">Cuéntanos qué le pasa a tu equipo o qué buscas *</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="45" required
+                                  minlength="20" placeholder="Ej.: mi laptop se apaga sola a los 10 minutos..."></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="whatsapp" name="contacto_pref" value="whatsapp">
+                        <label for="whatsapp">Prefiero respuesta por WhatsApp</label><br>
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <label for="terminos">Acepto que TecnoCana use mis datos solo para responder esta solicitud *</label>
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar solicitud</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="directo">
+            <h2>Contacto directo</h2>
+            <p>Si prefieres no llenar el formulario, también nos encuentras así:</p>
+            <ul>
+                <li>Escríbenos a <a href="mailto:ventas@tecnocana.do">ventas@tecnocana.do</a></li>
+                <li>Llámanos al <a href="tel:+18095550142">809-555-0142</a></li>
+                <li>
+                    Catálogo completo en PDF:
+                    <a href="docs/catalogo-tecnocana.pdf" download>descargar catálogo</a>
+                </li>
+                <li>
+                    Conoce a nuestro proveedor de procesadores:
+                    <a href="https://www.intel.la" target="_blank" rel="noopener">Intel Latinoamérica</a>
+                </li>
+                <li>Ya estás en esta sección: <a href="#directo">ir al contacto directo</a></li>
+            </ul>
+            <p>
+                <small>Presiona <kbd>Tab</kbd> para moverte entre los campos del formulario
+                y <kbd>Enter</kbd> para enviar.</small>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            TecnoCana · Avenida Barceló, Plaza Caney, local 12 · Bávaro, Punta Cana ·
+            <a href="tel:+18095550142">809-555-0142</a>
+        </address>
+        <p>
+            Sitio desarrollado por <strong>LUIS MARTIN PEÑA MEJIA</strong> · Matrícula
+            <strong>2023-4341</strong> · ISW-311 Tecnologías de Internet I
+        </p>
+        <p><small>&copy; 2026 TecnoCana. Horario: lunes a sábado, 9:00 a. m. – 6:00 p. m.</small></p>
+    </footer>
+</body>
+</html>
